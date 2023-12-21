@@ -5,7 +5,7 @@ const TopStudentCard = () => {
     <div className="flex flex-col w-[311px] h-[396px] bg-neutral-100 flex-shrink-0">
       <div className="w-full h-[305px]">
         <img
-          src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0dWRlbnRzfGVufDB8fDB8fHww"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_jt3E8Eb-6ek8HOlgBn4o48XeA5_3BgVYjS6o7EUKAkw-3vzdNDBpZDRlKvDFPDhDdoc&usqp=CAU"
           alt="image here"
           className="w-[311px] h-[305px] object-cover"
         />

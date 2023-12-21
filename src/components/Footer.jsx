@@ -13,8 +13,10 @@ const Footer = () => {
       <div className="text-white text-base md:text-xl flex flex-col items-center md:items-start gap-6 font-normal">
         <p>SOME TEXT ABOUT SOMETHING <br /> AND THEN SOME OTHER THING</p>
         <div className="flex gap-4 md:gap-8">
-        <Button text={"CONTACT US"} bgColor={"bg-white"}  textColor={"text-black"}/>
-        <Button text={"CONTACT US"} bgColor={"bg-white"} textColor={"text-black"}/>
+        <Link to='/products'>
+        <Button text={"PRODUCTS"} bgColor={"bg-white"}  textColor={"text-black"}/></Link>
+        <Link to='/cart'>
+        <Button text={"CART"} bgColor={"bg-white"} textColor={"text-black"}/></Link>
         </div>
       </div>
     </footer>

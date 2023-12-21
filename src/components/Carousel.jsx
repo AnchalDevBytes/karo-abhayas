@@ -33,7 +33,7 @@ const Carousel = ({ images }) => {
         {images.map((image, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-full h-60 md:h-80 bg-cover bg-top hover:bg-center transition-all"
+            className="flex-shrink-0 w-full h-60 md:h-80 bg-cover bg-center hover:bg-bottom transition-all"
             style={{ backgroundImage: `url(${image})` }}
           ></div>
         ))}

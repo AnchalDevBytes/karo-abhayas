@@ -1,4 +1,4 @@
-# Internshala Assignment - Ecommerce Landing Page
+# Internshala Assignment - KaroAbhyas Landing Page
 
 ## Overview
 
@@ -50,7 +50,7 @@ To run the project locally, follow these steps:
 2. Navigate to the project directory:
 
 ```bash
-    cd ecommerce-landing-page
+    cd karo-abhayas
 ```
 
 

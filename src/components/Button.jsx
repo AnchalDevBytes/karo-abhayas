@@ -6,7 +6,7 @@ const Button = ({text, bgColor, textColor}) => {
   const color = textColor || 'text-neutral-100';
 
   return (
-    <button  className={`px-3 py-2 w-fit text-sm font-normal ${backgroundColor} ${color}`}>
+    <button  className={`px-3 py-2 w-fit text-sm font-normal active:bg-black/70 active:scale-90 transition-all ${backgroundColor} ${color}`}>
         {text}
     </button>
   )

@@ -9,7 +9,7 @@ const ProductCard = ({ product }) => {
 
   return (
     <>
-      <div className="h-[386px] w-full  p-3 md:p-0 gap-5 flex flex-col md:flex-row md:gap-20 ">
+      <div className="min-h-[386px] w-full  p-3 md:p-0 gap-5 flex flex-col md:flex-row md:gap-20 ">
         <div className="md:h-full w-full h-36 md:w-[304px] ">
           <img
             src={product?.image}

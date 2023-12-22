@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, NotificationForAmit, Review, TopStudent} from '../components'
+import { Carousel, NotificationForRecruiter, Review, TopStudent} from '../components'
 import {images} from "../utils/Images"
 
 const HomePage = () => {
@@ -7,7 +7,7 @@ const HomePage = () => {
 
   return (
     <div className='md:px-9 pb-8 md:py-8 flex flex-col gap-7'>
-      <NotificationForAmit/>
+      <NotificationForRecruiter/>
       <Carousel images={images}/>
       <TopStudent/>
       <Review/>

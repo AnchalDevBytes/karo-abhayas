@@ -9,7 +9,7 @@ import TopStudent from "./TopStudent";
 import Review from "./Review";
 import CartCard from "./CartCard";
 import ProductLoader from "./ProductLoader";
-import NotificationForAmit from "./NotificationForAmit";
+import NotificationForRecruiter from "./NotificationForRecruiter";
 
 
-export {Button, Footer, Header, Carousel, CartCard, ProductCard, NotificationForAmit,ProductLoader, TopStudentCard, ReviewCard, TopStudent, Review}
+export {Button, Footer, Header, Carousel, CartCard, ProductCard, NotificationForRecruiter,ProductLoader, TopStudentCard, ReviewCard, TopStudent, Review}
